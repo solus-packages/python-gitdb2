@@ -1,0 +1,91 @@
+<PISI>
+    <Source>
+        <Name>python-gitdb2</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Packager>
+        <License>BSD-3-Clause</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">GitDB is a pure-Python git object database</Summary>
+        <Description xml:lang="en">GitDB is a pure-Python git object database
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-gitdb2</Name>
+        <Summary xml:lang="en">GitDB is a pure-Python git object database</Summary>
+        <Description xml:lang="en">GitDB is a pure-Python git object database
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/const.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/const.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/git.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/git.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/loose.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/loose.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/mem.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/mem.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/pack.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/pack.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/ref.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/db/ref.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/exc.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/exc.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/fun.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/fun.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/pack.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/pack.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/stream.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/stream.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/lib.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/lib.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_base.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_base.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_example.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_example.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_pack.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_pack.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_stream.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_stream.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/test/test_util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/typ.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/typ.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/util.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/util.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/utils/__init__.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/utils/__init__.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/utils/compat.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/utils/compat.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/utils/encoding.py</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb/utils/encoding.pyc</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb2-2.0.3-py2.7.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb2-2.0.3-py2.7.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb2-2.0.3-py2.7.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb2-2.0.3-py2.7.egg-info/not-zip-safe</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb2-2.0.3-py2.7.egg-info/requires.txt</Path>
+            <Path fileType="library">/usr/lib/python2.7/site-packages/gitdb2-2.0.3-py2.7.egg-info/top_level.txt</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-12-08</Date>
+            <Version>2.0.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
+        </Update>
+    </History>
+</PISI>

@@ -1,0 +1,19 @@
+name       : python-gitdb2
+version    : 2.0.3
+release    : 1
+source     :
+    - https://github.com/gitpython-developers/gitdb/archive/2.0.3.tar.gz : 51c376c0fc6c1f2f6ba11a67d472e52602509bd0653b5749d20ff751bf54ea13
+license    : BSD-3-Clause
+component  : programming.python
+summary    : GitDB is a pure-Python git object database
+description: |
+    GitDB is a pure-Python git object database
+builddeps  :
+    - python-setuptools
+    - python-smmap2
+rundeps    :
+    - python-smmap2
+build      : |
+    %python_setup
+install    : |
+    %python_install
