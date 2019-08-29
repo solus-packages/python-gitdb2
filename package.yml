@@ -1,19 +1,36 @@
 name       : python-gitdb2
-version    : 2.0.3
-release    : 1
+version    : 2.0.5
+release    : 2
 source     :
-    - https://github.com/gitpython-developers/gitdb/archive/2.0.3.tar.gz : 51c376c0fc6c1f2f6ba11a67d472e52602509bd0653b5749d20ff751bf54ea13
+    - https://files.pythonhosted.org/packages/c4/5c/579abccd59187eaf6b3c8a4a6ecd86fce1dfd818155bfe4c52ac28dca6b7/gitdb2-2.0.5.tar.gz : 83361131a1836661a155172932a13c08bda2db3674e4caa32368aa6eb02f38c2
 license    : BSD-3-Clause
 component  : programming.python
 summary    : GitDB is a pure-Python git object database
 description: |
     GitDB is a pure-Python git object database
 builddeps  :
-    - python-setuptools
+    - git
+    - python-nose
     - python-smmap2
 rundeps    :
     - python-smmap2
 build      : |
-    %python_setup
+    %python3_setup
 install    : |
-    %python_install
+    %python3_install
+check      : |
+    mkdir dummyGitRepo
+    pushd dummyGitRepo
+    git init
+    git config user.name 'My Name'
+    git config user.email 'my@email.com'
+    # Do note that tests want at least 50 commits
+    for c in {0..50}; do
+        echo $c > $c
+        git add $c
+        git commit -m "commit $c"
+    done
+    popd
+    export GITDB_TEST_GIT_REPO_BASE=$workdir/dummyGitRepo/.git
+    # Test_"pack_writing" is known to fail
+    python3 -m nose -v --exclude=test_pack_writing
