@@ -1,6 +1,6 @@
 name       : python-gitdb2
 version    : 2.0.5
-release    : 2
+release    : 3
 source     :
     - https://files.pythonhosted.org/packages/c4/5c/579abccd59187eaf6b3c8a4a6ecd86fce1dfd818155bfe4c52ac28dca6b7/gitdb2-2.0.5.tar.gz : 83361131a1836661a155172932a13c08bda2db3674e4caa32368aa6eb02f38c2
 license    : BSD-3-Clause
